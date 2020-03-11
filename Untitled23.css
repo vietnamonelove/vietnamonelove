@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+/*reset css*/
+a{
+    text-decoration:none;
+    color:black;
+}
+/*bỏ gạch chân tất cả link liên kết và để chữ màu đen*/
+section{
+    width: 485px;
+    height: 600px;
+    margin-left: 185px;
+}
+/*Đặt kích thước cho khối to section và dịch lề trái 185px*/
+article{
+    width:153px;
+    height: 190px;
+    float:left;
+    padding-right: 8px;
+}
+/*Đặt kích thước cho các khối nhỏ và căn trái */
+article img{
+    width:153px;
+    height: 114px;
+}
+/*Đặt kích thước cho các ảnh trong khối nhỏ*/
+article p{
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+/*Đặt font chữ , định dạng đậm và kích cỡ chữ của thẻ p trong khối nhỏ */
+div img{
+    width:475px;
+    height: 260px;
+ 
+}
+/*Đặt kích thước cho ảnh trong khối to*/
+ul{
+    margin-top:5px;
+    margin-bottom: 17px;
+}
+/*Căn lề dưới và lề trên cho ul*/
+ul li{
+    margin-right: 15px;
+    display: inline;
+    font-size: 12px;
+    font-style:italic;
+}
+/*Định dạng danh sách */
+ 
+div h2{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+/*Đặt kích thước cho thẻ h2 trong khối div và dãn lề dưới */
+div p{
+    font-size:14px;
+/*Đặt kích thước cho thẻ p trong khối div */
+}
+i{
+    color:gray;
+    font-size: 12px;
+}
+ 
+/*Định dạng icon*/
